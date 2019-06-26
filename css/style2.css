@@ -1,0 +1,393 @@
+body
+{
+	height:6000px
+}
+header {
+    height: auto;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+header i.icon {
+    position: absolute;
+    right: 30px;
+    top: 32px;
+    cursor: pointer;
+    z-index: 10;
+    display: none;
+}
+
+header .logo h2 {
+    font-size: 45px;
+    color: #000;
+}
+
+header nav .nav-list {
+    list-style: none;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav .nav-list .list a {
+    display: block;
+    padding: 15px 0;
+    margin: 9px 0;
+	font-size:20px;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out ;  
+}
+
+header nav .nav-list .list a:hover {
+    color: #000;
+}
+
+
+
+@media (max-width:575px) {
+   
+    header .logo h2 {
+        text-align: center
+    }
+    header nav .nav-list {
+        display: none ;      
+	    padding: 0;  
+        text-align: center;
+        
+    }
+    header i.icon {
+        display: block
+    }
+}
+
+
+/*home*/
+section .sec
+{
+	padding:20px 0;
+}
+.overlay
+{
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	background:rgba(0,0,0,0.2);
+}
+.sticky
+{
+	
+    margin-top: 0px;
+    background:#990033;
+	color:#fff;	
+}
+
+
+section.home
+{
+	height:680px;
+    background-size:cover;
+    background-position:center;	
+    background-size:cover;
+	background-attachment:fixed;
+	background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.9)), url("../images/home/skill-bg.jpg");
+	position:relative;
+}
+
+.home .home-tit
+{
+	margin-top:200px;
+	font-size:50px;
+	color:#990033;
+	
+}
+.home-parg
+{
+	margin-top:30px;
+	font-size:25px;
+	color:#fff;
+}
+@media (max-width:575px)
+{ 
+header
+{
+	background:#000;
+}
+.home-tit
+{
+	font-size:25px;
+	
+}
+	.button
+	{
+		margin-bottom:10px;
+	}
+}
+.buttonss button
+{
+	width:180px;
+	height:10%;
+	margin-top:20px;
+	background-color:#2299ee;
+	color:#fff;
+	padding:10px 0;
+	font-size:25px;
+	text-align:center;
+}
+.buttonss:hover
+{
+	background-color:#fff;
+	color:#990033;
+}
+
+.spans
+{
+	width:180px;
+	height:10%;
+	margin-top:20px;
+	background-color:#990033;
+	color:#fff;
+	padding:10px 0;
+	font-size:25px;
+	text-align:center;
+}
+.spans:hover
+{
+	background-color:#fff;
+	color:#990033;
+}
+.spans span
+{
+    
+}
+
+/*about*/
+.section
+{
+	padding:20px 0;
+}
+.section-tit
+{
+	font-size:40px;
+	color:#990033;
+}
+.line
+{
+	width:200px;
+	background-color:#999;
+	height:3px;
+	margin:auto;
+	margin-bottom:20px;
+	
+}
+.line span
+{
+	display:block;
+	width:130px;
+	height:6px;
+	background-color:#990033;
+	margin:auto;   /*center*/
+	position:relative;
+	bottom:2px;
+}
+.section p
+{
+	line-height:1.5;
+	font-size:20px;
+	color:#333;
+	margin:auto;
+	width:50%;
+}
+@media (max-width:575px)
+{
+	.section p
+	{
+		width:100%;
+	}
+}
+.row .col-md-6 h1
+{
+	width:100%;
+	padding-top:25px;
+	margin-left:0px;
+	font-size:35px;
+	color:#000;
+}
+@media (max-width:575px)
+{
+	.col-md-6 h1{
+	font-size:10px;
+    }
+}
+.row .col-md-6 h1 span
+{
+	color:#990033;
+}
+.row .col-md-6 p
+{
+	width:100%;
+	margin-left:0px;
+	font-size:20px;
+	color:#666;
+	margin-bottom:30px;
+}
+.row .btn-about
+{
+	background-color:#990033;
+	color:#fff;
+	font-size:20px;
+	padding:10px 10px;
+	border: 1px solid #990033;
+}
+.row .img-about
+{
+	margin-top:52px;
+	width:100%;
+	height:450px;
+	background-size:cover;
+	position:relative;
+	background-position:center;
+	background-image:url("../images/about/about-bg.jpg");
+}
+.about
+{
+	margin-bottom:100px;
+}
+/*service*/
+
+.service
+{
+	margin-bottom:200px;
+	background-color:#ffffcc;
+}
+.service .serv
+{
+	background-color:#ffffcc;
+	margin-top:100px;
+	width:100%;
+    background-color:#fff;
+	text-align:center;
+	padding:10px;
+	margin-bottom:20px;
+	transition:all 0.3s ease-in-out;
+}
+.service .serv:hover
+{
+	background-color:#cc9966;
+	
+}
+.service .serv .serv-tit
+{
+	color:#005544;
+	font-weight:bold;
+}
+.service .serv .serv-parg
+{
+	color:#000;
+	font-size:20px;
+}
+.service .serv i
+{
+	color:#fff;
+}
+.service .serv i
+{
+	background-color:#bb0033;
+	border-radius:50%;
+	padding:15px;
+}
+.stat
+{
+	margin-top:100px;
+	margin-bottom:140px;
+	background-color:#ccffcc;
+	padding:70px;
+	background-image:url("images/stat/lap-stat");
+	
+	width:100%;
+	background-position:center;
+	position:relative;
+	background-size:cover;
+}
+.row i
+{
+   color:#666600/*999900*/;	
+}
+.row .time
+{
+	font-size:65px;
+	color:#990033;
+}
+.row .stat-n
+{
+	font-size:65px;
+	color:#990033;
+}
+.stat-p
+{
+	color:#000;
+	font-size:30px;
+}
+
+/*portf*/
+
+section.portf
+{
+	margin-bottom:200px;
+}
+ .buttons
+{   
+    
+	margin:auto;
+	width:60%;
+	text-align:center;
+}
+.buttons button
+{
+	margin-bottom:50px;
+	margin-top:10px;
+	width:120px;
+	color:#fff;
+	background-color:#990033;
+	padding:10px;
+	font-size:20px;
+	border:1px solid #990033;
+}
+/*.buttons button:hover
+{
+	background-color:#000;
+}
+*/
+.active_btn
+{
+	background-color:#000 !important;
+}
+
+.images >div img
+{
+	width:100%;
+	height:200px;
+	padding:10px 10px;
+	position:relative;
+}
+.more
+{
+	width:230px;
+	height:80px;
+	text-align:center;
+	color:#fff;
+	background-color:#990033;
+	padding:20px 20px;
+	font-size:30px;
+	margin-top:50px;
+	border:1px solid #990033;
+}
+.expret
+{
+	background-color:#fef;
+	width:100%;
+	height:500px;
+}

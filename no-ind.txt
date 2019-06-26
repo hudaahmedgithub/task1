@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+
+		<meta charset="utf-8">
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="css/vendors/bootstrap.min.css"/>
+        
+        <!-- Font  -->
+        <link rel="stylesheet" href="css/vendors/font-awesome.min.css"/>
+        
+        <!-- owl Carousel -->
+        
+
+        <link rel="stylesheet" href="css/vendors/owl.carousel.min.css">
+      
+        <link rel="stylesheet" href="css/vendors/owl.theme.default.min.css">
+        
+        <!-- magnific-popup -->
+        <link rel="stylesheet" href="css/vendors/magnific-popup.css">
+        
+        <!-- Slick -->
+        <link rel="stylesheet" href="css/vendors/slick.css">
+   
+        <link a href="style2.css" rel="stylesheet"/>
+		<title>MY WebSite</title>
+    </head>
+<body>
+     <header> 
+     
+        <div class="container">
+                <div class="row">
+                   <i class="icon fa fa-bars fa-2x">
+					</i>
+                        
+                    
+					<!-- ./logo -->
+         <span class="g">TH</span>
+              <span class="mg">inker</span>
+      
+                    <!-- Nav -->
+                    <nav class="col-md-9 col-xs-12">
+                        
+                        <ul class="nav-list">
+                            <li class="list"><a href="#home">Home</a></li>
+                            <li class="list"><a href="#about">About</a></li>
+                            <li class="list"><a href="#service">Services</a></li>
+                            
+                            <li class="list"><a href="#test">Testimonial</a></li>
+                            <li class="list"><a href="#blog">Blog</a></li>
+                            <li class="list"><a href="#contact">Contact</a>
+                            </li>
+                  
+                        </ul>
+                         </nav>
+                        </div>
+                    </div>
+       
+	</header>
+    <!--home-->
+	
+    <section class="sec home text-center">
+	<div class="overlay">
+	<div class="container">
+	
+        <h1 class="home-tit">Awesome<span  class="ht"> HTML5</span> Template <span class="in">THINKER</span> </h1>
+        <p class=" home-parg">Lorem ipsum dolor sit amet, consectetur adipisicing
+        adipisicing elit.Lorem ipsum dolor sit amet,adipisicing consectetur adipisicing elit Exercitationem rem consectetur 
+        adipisicing elit.Lorem ipsum dolor sit amet,adipisicing consectetu</p>
+	
+	
+	<button class="btn-hom">Show More</button>
+	</div>
+</div>
+	
+    <div id="about" class="feat text-center">
+    <div class="container">
+        <div class="row">
+             <div class="col-sm-6 col-md-3">
+			   <i id="h"class="fa fa-home fa-5x rounded-circle"></i>
+			   <h1>Lorem ipsum dolor
+                   </h1>
+                <div class="lin">
+	            </div>
+			   <p class="p">Lorem ipsum dolor sit amet, consectetur adipisicing
+                 Lorem elit.Lorem ipsum dol
+                   elit.Lorem ipsum dolor ipiuse Lorem ipsum dolor
+                   elit.Lorem ipsum dolor
+                   Lorem ipsum dolor ipiuse Lorem ipsum </p>
+                 
+                 <button class="btn ">Show More</button>
+              </div>
+			   <div class="col-sm-6 col-md-3">
+			   <i class="fa fa-heart fa-5x rounded -circle"></i>
+			   <h1>Lorem ipsum dolor
+                   </h1>
+                   <div class="lin"></div>
+			   <p class="p">Lorem ipsum dolor sit amet, consectetur adipisicing
+                 Lorem elit.Lorem ipsum dol
+                   elit.Lorem ipsum dolor ipiuse Lorem ipsum dolor
+                   elit.Lorem ipsum dolor
+                   Lorem ipsum dolor ipiuse Lorem ipsum </p>
+                   <button class="btn ">Show More</button>
+              </div>
+			   <div class="col-sm-6 col-md-3">
+			   <i class="fa fa-camera fa-5x rounded -circle"></i>
+			   <h1>Lorem ipsum dolor
+                   </h1>
+                   <div class="lin"></div>
+			   <p class="p">Lorem ipsum dolor sit amet, consectetur adipisicing
+                 Lorem elit.Lorem ipsum dol
+                   elit.Lorem ipsum dolor ipiuse Lorem ipsum dolor
+                   elit.Lorem ipsum dolor
+                   Lorem ipsum dolor ipiuse Lorem ipsum </p>
+                   <button class="btn ">Show More</button>
+              </div>
+			   <div class="col-sm-6 col-md-3">
+			   <i class="fa fa-envelope fa-5x rounded -circle"></i>
+			   <h1>Lorem ipsum dolor
+                   </h1>
+                   <div class="lin"></div>
+			   <p class="p"> Lorem ipsum dolor sit amet, consectetur adipisicing
+                 Lorem elit.Lorem ipsum dol
+                   elit.Lorem ipsum dolor ipiuse Lorem ipsum dolor
+                   elit.Lorem ipsum dolor
+                   Lorem ipsum dolor ipiuse Lorem ipsum</p>
+                   <button class="btn ">Show More</button>
+              </div>
+          </div>
+     </div>
+</div>
+</section>
+    
+    <section class="part2">
+        <div class="row">
+            <div class="col-md-5">
+               <div class="blu">
+                <h1>OUR GALLERY
+                </h1> 
+                <div class="line"></div>
+                   <p class="par">Lorem ipsum dolor sit amet, consectetur adipisicing
+                 Lorem elit.Lorem ipsum dol
+                       elit.Lorem ipsum dolor ipiuse Lorem ipsum dolor</p>
+                   
+                   <div class="buttons">
+                  
+<button id="all" class="all">Show All</button>
+<button id="design" class="design">Design</button>
+<button id="mation" class="mation">Mation</button>
+
+<button id="video"  class="video">Video</button>
+
+
+                   </div>  
+                </div>
+                </div>
+                
+                   
+                   <div class="col-md-7 images">
+       <div class="col-md-12 mation">
+<div class="col-md-4 ">
+<img src="images/2.jpg" alt=""/>
+</div>
+
+<div class="col-md-4 ">
+<img src="images/1.jpg" alt=""/>
+</div>
+
+                       </div>
+                         <div class="col-md-12 video">
+<div class="col-md-4 ">
+<img src="images/99.jpg" alt=""/>
+</div>
+
+                             
+                             
+
+<div class="col-md-4 ">
+<img src="images/6.jpg" alt=""/>
+</div>
+                       </div>
+              
+   
+    <div class="col-md-12 design">
+
+<div class="col-md-4 ">
+<img src="images/7.jpg" alt=""/>
+</div>
+
+<div class="col-md-4 ">
+<img src="images/v.jpg" alt=""/>
+</div>
+        </div>
+      
+     
+         </div></div>
+    </section>
+    
+    
+    <div class="testm text-center">
+        <div class="container">
+            <div class="slick" >
+                
+              
+             <p class="p1">one Lorem ipsum dol
+                       elit.Lorem ipsum dolor ipiuse Lorem ipsum dolor
+                       Lorem ipsum dol
+                       elit.Lorem ipsum dolor ipiuse Lorem ipsum dolor Lorem ipsum dol
+                       elit.Lorem ipsum dolor ipiuse Lorem ipsum dolor Lorem ipsum dol
+                       elit.Lorem ipsum dolor ipiuse Lorem ipsum dolor</p>
+          
+               
+                <p class="p1">tow Lorem ipsum dol
+                       elit.Lorem ipsum dolor ipiuse Lorem ipsum dolor
+                       Lorem ipsum dol
+                       elit.Lorem ipsum dolor ipiuse Lorem ipsum dolor Lorem ipsum dol
+                       elit.Lorem ipsum dolor ipiuse Lorem ipsum dolor Lorem ipsum dol
+                       elit.Lorem ipsum dolor ipiuse Lorem ipsum dolor</p>
+                
+          <p class="p1">three Lorem ipsum dol
+                       elit.Lorem ipsum dolor ipiuse Lorem ipsum dolor
+                       Lorem ipsum dol
+                       elit.Lorem ipsum dolor ipiuse Lorem ipsum dolor Lorem ipsum dol
+                       elit.Lorem ipsum dolor ipiuse Lorem ipsum dolor Lorem ipsum dol
+                       elit.Lorem ipsum dolor ipiuse Lorem ipsum dolor</p>
+               
+            
+            
+            </div>
+           </div>
+        </div>
+    
+   
+        <!-- Left and right controls -->
+       
+    <div class="choose">
+        
+           <div class="row">
+            <div class="col-md-5 ">
+                <div class="panel">
+                
+            <div class="bluu1 ">
+                    
+                <h1>OUR BLOG POST
+                </h1> 
+                <div class="linn"></div>
+                   <p class="par">Lorem ipsum dolor sit amet, consectetur adipisicing
+                 Lorem <br>elit.Lorem ipsum dol
+                       elit.Lorem ipsum dolor ipiuse Lorem ipsum </p>
+                 
+                    <ul class="list-unstyled">
+                        
+                        <li class="active" id="p_about" class="p_about" >Phone</li>
+                        <li id="p_service" class="p_service" >design</li>
+                        <li id="p_contact"
+                            class="p_contact">graphic</li>
+                        
+                    </ul>
+                     
+                    </div>
+                </div></div>
+            <div class="content">
+               <div class="col-md-7 p_contact">
+                
+                <div class="bluu11 ">
+                    <img src="images/99.jpg" width="50%" height="200px">
+              
+                    <p class="p11"><br><span class="sp2">Lorem ipsum dolor sit ametp</span> <br>
+                        <span class="spd2">Digital Marketing / John/ 22
+                            sebtember / 2017 </span> <br><br>
+                       elit.Lorem ipsum dolor ipiuse Lorem ipsum 
+                   ingpisici isicingpis  isicing 
+                        isicingpisic ingpisic elit Lorem ipsum dol
+                       elit Lorem ipsum dolor ipiuse Lorem ipsum  elit Lorem ipsum dol Lorem ipsum dol
+                       elit Lorem ipsum dolor ipiuse Lorem ipsum  elit Lorem ipsum dolor elit.  
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-7  p_service">
+               <div class="bluu2">
+                    <img src="images/9.jpg" width="50%" height="200px">
+                    
+                    <p class="p11"><br><span class="sp2">Lorem ipsum dolor sit ametp</span> <br>
+                        <span class="spd2">Digital Marketing / John/ 22
+                            sebtember / 2017 </span> <br><br>
+                       elit.Lorem ipsum dolor ipiuse Lorem ipsum 
+                   ingpisici isicingpis  isicing pisicingp isicingpisi cingpisicingp  isicingpisic ingpisic elit Lorem ipsum dol
+                       elit Lorem ipsum dolor ipiuse Lorem ipsum  elit Lorem ipsum dol Lorem ipsum dol
+                       elit Lorem ipsum dolor ipiuse Lorem ipsum  elit Lorem ipsum dolor elit.  
+                    </p>
+                  
+     </div>
+        
+            </div>
+          </div> 
+        </div>
+    </div>  
+    
+    
+    <!--new -->
+    <div class="choos">
+             <div class="row">
+                 <div class="col-md-12">
+                 <div class="col-md-5">
+                   <div class="c_panel">
+                    
+                       <ul class="list-unstyled">
+                        
+                        <li class="active" data-role="p_about"  >Phone</li><br>
+                        <li data-role="p_service"  >design</li><br>
+                        <li data-role="p_contact"
+                            >graphic</li><br>
+                         </ul>                
+                     </div>                 
+                     </div>
+  <div class="col-md-7 conten">
+      <div class="conten1" id="p_about">
+                    <img src="images/9.jpg" width="50%" height="200px">
+                    
+                    <p class="p11"><br><span class="sp2">Lorem ipsum dolor sit ametp</span> <br>
+                        <span class="spd2">Digital Marketing / John/ 22
+                            sebtember / 2017 </span> <br><br>
+                       elit.Lorem ipsum dolor ipiuse Lorem ipsum 
+                   ingpisici isicingpis  isicing pisicingp isicingpisi cingpisicingp  isicingpisic ingpisic elit Lorem ipsum dol
+                       elit Lorem ipsum dolor ipiuse Lorem ipsum  elit Lorem ipsum dol Lorem ipsum dol
+                       elit Lorem ipsum dolor ipiuse Lorem ipsum  elit Lorem ipsum dolor elit.  
+                    </p>
+       </div>
+            
+        <div class="conten2" id="p_service">
+                    <img src="images/99.jpg" width="50%" height="200px">
+                    
+                    <p class="p11"><br><span class="sp2">Lorem ipsum dolor sit ametp</span> <br>
+                        <span class="spd2">Digital Marketing / John/ 22
+                            sebtember / 2017 </span> <br><br>
+                       elit.Lorem ipsum dolor ipiuse Lorem ipsum 
+                   ingpisici isicingpis  isicing pisicingp isicingpisi cingpisicingp  isicingpisic ingpisic elit Lorem ipsum dol
+                       elit Lorem ipsum dolor ipiuse Lorem ipsum  elit Lorem ipsum dol Lorem ipsum dol
+                       elit Lorem ipsum dolor ipiuse Lorem ipsum  elit Lorem ipsum dolor elit.  
+                    </p>
+       </div>              
+   </div>
+  </div> 
+        </div> </div>   
+   <div class="contact text-center">
+        
+        <h1>Contact Us</h1>
+        <div class="linee"></div>
+        <p> Lorem ipsum dol Lorem ipsum 
+                       elit Lorem ipsum dolor ipiuse Lorem ipsum  
+                       elit Lorem ipsum dolor ipiuse Lorem ipsum  elit Lorem ipsum dolor elit.
+        </p>
+        <button class="bt-con">SEND YOUR MESSAGE</button>
+    </div>
+    
+    
+    <div class="map">
+    </div>
+    
+    <div class="footer">
+        <div class="row">
+            <div class="col-md-3 th">
+                <span class="g">TH</span>
+              <span class="mgg">inker</span>
+                <p>@Copyright 2017 Your company | Design <span>Egypt</span> </p>
+            </div>
+            
+        
+            
+            <div class="col-md-6">
+                <div class="cent">
+                <p>LOCATION</p>
+                    
+                <div class="col-md-3">
+                    
+                    <p>30 Raffles AVE,<p>
+                    <p>Singapore 330099</p>
+                   
+                    
+                </div>
+                <div class="col-md-3">
+                    <p>1 Republic AVE,<p>
+                    <p>Singapore 330099</p>
+            </div>
+            </div>
+              
+            <div class="col-md-2 more">
+              
+                <p>More Info.</p>
+                <div class="phon">
+                <p>phone:010454</p>
+                <p>Email:12@gmail.com</p>
+            </div>
+                </div>
+               
+            
+            <div class="col-md-4">
+                <p class="rr">Get Social With Us</p>
+                <div class="fon">
+                    <i class="fa fa-facebook fa-3x"></i>
+                    <i class="fa fa-twitter fa-3x"></i>
+                    <i class="fa fa-youtube fa-3x"></i>
+                    <i class="fa fa-wifi fa-3x"></i>
+                    <i class="fa fa-star fa-3x"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    
+        <script src="js/vendors/jquery-3.3.1.min.js"></script>
+        <script src="js/vendors/bootstrap.js"></script>
+        <script src="js/vendors/jquery.countTo.js"></script>
+        <script src="js/vendors/owl.carousel.min.js"></script>
+        <script src="js/vendors/jquery.magnific-popup.min.js"></script>
+        <script src="js/vendors/slick.min.js"></script>
+        <script src="js/scriptt.js"></script>
+        </body>
+</html>    
